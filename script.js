@@ -7,12 +7,13 @@ class Person {
     get name(){
         return this._name;
     }
-    get age(){
-        return this._age;
-    }
     set age(ageValue){
         _age =ageValue
     } 
+    get age(){
+        return this._age;
+    }
+    
 }
  class Student extends Person {
      study()  {
