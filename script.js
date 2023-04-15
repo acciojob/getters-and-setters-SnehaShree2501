@@ -13,7 +13,10 @@ class Person {
     get age(){
         return this._age;
     }
+    set name(nameValue){
+        _name=nameValue
     
+}
 }
  class Student extends Person {
      study()  {
